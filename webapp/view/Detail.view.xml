@@ -1,0 +1,18 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" 
+xmlns="sap.m" controllerName="People.odatapeople.controller.Detail" 
+displayBlock="true">
+<Page
+id="detailPage"
+title="{UserName}"
+navButtonPress="onBack"
+showNavButton="true">
+<content>
+<ObjectHeader
+id="objectHeader"
+intro="{FirstName}" 
+title="{path: 'Gender',
+targetType:'any'}">
+</ObjectHeader>
+</content>
+</Page>
+</mvc:View>
