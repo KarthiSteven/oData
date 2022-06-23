@@ -1,0 +1,7 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" 
+xmlns="sap.m" controllerName="People.odatapeople.controller.App" 
+displayBlock="true">
+<Shell id="shell1">
+<App id="app"></App>
+</Shell>
+</mvc:View>
