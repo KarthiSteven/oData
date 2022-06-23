@@ -1,0 +1,17 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" 
+xmlns="sap.m" controllerName="People.odatapeople.controller.Master" 
+displayBlock="true">
+<Page id="Page1" title="Peoples">
+<Toolbar id="Toolbar1">
+<SearchField id="SearchField1" width="20%" search=".onFilterProducts"/>
+</Toolbar>
+<List id="list1"  items="{path: '/People', 
+sorter: {
+path: 'LastName',
+descending: true
+}}">
+<StandardListItem type="Navigation" 
+ title="{LastName} {FirstName}" description="Address" press="itemPress" id="item3"/>
+ </List>
+ </Page>
+</mvc:View>
